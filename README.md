@@ -1,2 +1,2 @@
 # Processing_Projects
-A Selection of small noodles and doodles for personal learning, Written in Processing.
+A selection of small noodles and doodles for personal learning, written in Processing.
