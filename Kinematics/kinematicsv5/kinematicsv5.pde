@@ -2,7 +2,7 @@
 float  root_x = width/2;
 float root_y = height/2;
 
-float rootpos[] = {400,200};
+float rootpos[] = {500,200};
 float f_Hippos[]={0,0};
 float r_Hippos[]={0,0};
 
@@ -12,7 +12,7 @@ float Angle_Offset = 90;
 
 void setup(){
   
-  size(800,600);
+  size(1000,600);
 
 }
 
@@ -21,11 +21,11 @@ void draw(){
 
   background(170);
   
-  h = 0;//map(mouseY, 0, height, -20,80);
+  h = map(mouseY, 0, height, -20,80);
   
   // Calculate Positions
-  float HX = 300 * cos(radians(map(mouseX,0,width,-15,15)));
-  float HY = 300 * sin(radians(map(mouseX,0,width,-15,15)));
+  float HX = 300 * cos(radians(map(mouseX,0,width,-20,20)));
+  float HY = 300 * sin(radians(map(mouseX,0,width,-20,20)));
   
   // Update Knee pos
   
