@@ -21,7 +21,7 @@ void draw(){
 
   background(170);
   
-  h = map(mouseY, 0, height, -20,80);
+  h = map(mouseY, 0, height, -20,100);
   
   // Calculate Positions
   float HX = 300 * cos(radians(map(mouseX,0,width,-20,20)));
